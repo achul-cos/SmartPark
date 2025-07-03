@@ -8,7 +8,7 @@
   
 [![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-8892BF.svg?style=flat-square)](https://php.net/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/achul-cos/smartpark?style=social)](https://github.com/username/smartpark)
+[![GitHub Stars](https://img.shields.io/github/stars/achul-cos/smartpark?style=social)](https://github.com/achul-cos/smartpark)
 
 </div>
 
