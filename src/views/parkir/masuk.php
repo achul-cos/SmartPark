@@ -428,9 +428,10 @@
             <div class="logo">SmartPark</div>
             <div class="nav-links">
                 <a href="../parkir/add" class="nav-link active">Masuk Kendaraan</a>
-                <!-- <a href="../parkir/delete" class="nav-link" onclick="goToExit()">Keluar Kendaraan</a> -->
                 <a href="../parkir/delete" class="nav-link">Keluar Kendaraan</a>
                 <a href="../parkir/aktif" class="nav-link">Dashboard</a>
+                <a href="../admin/tarif" class="nav-link">Kelola Tarif</a>
+                <a href="../admin/laporan" class="nav-link">Laporan Harian</a>
             </div>
         </div>
     </div>

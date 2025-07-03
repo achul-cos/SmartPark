@@ -310,6 +310,8 @@
                 <a href="../parkir/add" class="nav-link">Masuk Kendaraan</a>
                 <a href="../parkir/delete" class="nav-link">Keluar Kendaraan</a>
                 <a href="../parkir/aktif" class="nav-link active">Dashboard</a>
+                <a href="../admin/tarif" class="nav-link">Kelola Tarif</a>
+                <a href="../admin/laporan" class="nav-link">Laporan Harian</a>
             </div>
         </div>
     </div>
@@ -380,7 +382,8 @@
                                 ?></td>
                                 <td><?= $durasiText ?></td>
                                 <td>
-                                    <a href="/parkir/delete?plat=<?= urlencode($kendaraan['plat_nomor']) ?>">
+                                    <form method="POST" action="<?= BASEURL ?>/parkir/delete-parkir">
+                                        <input type="hidden" name="plat_nomor" value="<?php echo $kendaraan['plat_nomor']; ?>">
                                         <button class="action-button">Keluar</button>
                                     </a>
                                 </td>

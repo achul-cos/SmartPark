@@ -6,32 +6,15 @@ class ParkirController extends BaseController{
     public function __construct(){
         $this->kendaraanModel = $this->model('KendaraanModel');
     }
-
     public function index(){
         echo 'Hello World from parkir index';
     }
-
-    // public function edit($id1=0, $id2=""){
-    //     echo 'Edit form Parkir id1 = '.$id1.' dan id2 =  '.$id2;
-    // }
-
     public function addView(){
         $this->view('parkir/masuk');
     }
     public function deleteView(){
         $this->view('parkir/keluar');
     }
-    // public function aktifView(){
-    //     $this->view('home/index');
-    // }
-    // public function aktifView(){
-    //     $data = [
-    //         'title' => 'Kendaran Terparkir',
-    //         'AllKendaraan' => $this->kendaraanModel->getAll(),
-    //     ];
-    //     $this->view('parkir/aktif', $data);
-    // } 
-     
     public function add(){
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $plat_nomor = trim($_POST['plat_nomor']);
@@ -62,7 +45,6 @@ class ParkirController extends BaseController{
             $this->redirect(BASEURL . '/parkir/add');
         }
     }
-
     public function delete(){
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $plat_nomor = trim($_POST['plat_nomor']);
@@ -82,8 +64,6 @@ class ParkirController extends BaseController{
             $this->view('parkir/keluar');
         }
     }
-
-    // Update method untuk menampilkan kendaraan parkir aktif
     public function aktifView(){
         $data = [
             'title' => 'Kendaran Terparkir',

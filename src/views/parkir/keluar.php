@@ -489,10 +489,11 @@ if (isset($_SESSION['error'])) {
         <div class="header-content">
             <div class="logo">SmartPark</div>
             <div class="nav-links">
-                <!-- <a href="../parkir/add" class="nav-link" onclick="goToEntry()">Masuk Kendaraan</a> -->
                 <a href="../parkir/add" class="nav-link">Masuk Kendaraan</a>
                 <a href="../parkir/delete" class="nav-link active">Keluar Kendaraan</a>
                 <a href="../parkir/aktif" class="nav-link">Dashboard</a>
+                <a href="../admin/tarif" class="nav-link">Kelola Tarif</a>
+                <a href="../admin/laporan" class="nav-link">Laporan Harian</a>
             </div>
         </div>
     </div>
@@ -512,6 +513,7 @@ if (isset($_SESSION['error'])) {
                         type="text" 
                         class="form-input" 
                         id="platNomor"
+                        name="plat_nomor"
                         placeholder="Contoh: B 1234 CD"
                         required
                         style="text-transform: uppercase;"

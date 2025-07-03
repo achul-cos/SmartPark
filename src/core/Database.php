@@ -1,7 +1,7 @@
 <?php
 
 class Database {
-    private $conn;
+    public $conn;
 
     public function __construct() {
         $this->conn = $this->setConnection();

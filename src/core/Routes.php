@@ -12,7 +12,10 @@ class Routes{
         $router->post('/parkir/add-parkir',['ParkirController','add']);
         $router->post('/parkir/delete-parkir',['ParkirController','delete']);
         $router->get('/parkir/aktif',['ParkirController','aktifView']);
-
+        $router->get('/admin/tarif',['AdminController','tarifView']);
+        $router->get('/admin/laporan',['AdminController','laporanView']);
+        $router->post('/admin/tarif-update',['AdminController','tarifUpdate']);
+        $router->get('/admin/export-csv', ['AdminController','exportCSV']);
 
         $router->run();
     }
