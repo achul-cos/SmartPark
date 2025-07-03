@@ -6,9 +6,9 @@
 
 <div align="center">
   
-[![PHP Version](https://img.shields.io/badge/PHP-7.4%2B-8892BF.svg?style=flat-square)](https://php.net/)
+[![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-8892BF.svg?style=flat-square)](https://php.net/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/username/smartpark?style=social)](https://github.com/username/smartpark)
+[![GitHub Stars](https://img.shields.io/github/stars/achul-cos/smartpark?style=social)](https://github.com/username/smartpark)
 
 </div>
 
@@ -25,7 +25,7 @@
 ## 🛠 Teknologi
 
 **Backend**  
-![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php)
+![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?logo=php)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?logo=mysql)
 ![PDO](https://img.shields.io/badge/PDO-Database%20Access-1A1A2E)
 
@@ -47,7 +47,7 @@
 ## 🚀 Panduan Instalasi
 
 ### Prasyarat Sistem
-- PHP 7.4+
+- PHP 8.2+
 - MySQL 5.7+
 - Web Server (Apache/Nginx)
 - Composer (disarankan)
@@ -95,7 +95,7 @@ Akses aplikasi di browser: [http://localhost:8000](http://localhost:8000)
 
 ```markdown
 smartpark/
-├── app/
+├── src/
 │   ├── controllers/    # Logic aplikasi
 │   ├── models/         # Interaksi database
 │   └── views/          # Template antarmuka
