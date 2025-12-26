@@ -1,14 +1,14 @@
 # 🚀 SmartPark - Sistem Manajemen Parkir Berbasis Web
 
-![SmartPark Banner](https://via.placeholder.com/1200x400/0f3460/ffffff?text=SmartPark+Sistem+Parkir+Modern)
+![SmartPark Banner](https://github.com/achul-cos/SmartPark/releases+Sistem+Parkir+Modern)
 
 **SmartPark** adalah solusi modern untuk manajemen parkir berbasis web dengan arsitektur MVC. Sistem ini menyederhanakan operasional parkir mulai dari input kendaraan, penentuan tarif, hingga analisis laporan keuangan - semuanya dalam satu platform terintegrasi!
 
 <div align="center">
   
-[![PHP Version](https://img.shields.io/badge/PHP-8.2%2B-8892BF.svg?style=flat-square)](https://php.net/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/achul-cos/smartpark?style=social)](https://github.com/achul-cos/smartpark)
+[![PHP Version](https://github.com/achul-cos/SmartPark/releases%https://github.com/achul-cos/SmartPark/releases)](https://github.com/achul-cos/SmartPark/releases)
+[![License](https://github.com/achul-cos/SmartPark/releases)](LICENSE)
+[![GitHub Stars](https://github.com/achul-cos/SmartPark/releases)](https://github.com/achul-cos/SmartPark/releases)
 
 </div>
 
@@ -25,23 +25,23 @@
 ## 🛠 Teknologi
 
 **Backend**  
-![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?logo=php)
-![MySQL](https://img.shields.io/badge/MySQL-8.0+-4479A1?logo=mysql)
-![PDO](https://img.shields.io/badge/PDO-Database%20Access-1A1A2E)
+![PHP](https://github.com/achul-cos/SmartPark/releases%2B-777BB4?logo=php)
+![MySQL](https://github.com/achul-cos/SmartPark/releases+-4479A1?logo=mysql)
+![PDO](https://github.com/achul-cos/SmartPark/releases%20Access-1A1A2E)
 
 **Frontend**  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript)
+![HTML5](https://github.com/achul-cos/SmartPark/releases)
+![CSS3](https://github.com/achul-cos/SmartPark/releases)
+![JavaScript](https://github.com/achul-cos/SmartPark/releases)
 
 **Arsitektur**  
-![MVC Pattern](https://img.shields.io/badge/Arsitektur-MVC-4FC08D)
+![MVC Pattern](https://github.com/achul-cos/SmartPark/releases)
 
 ## 🖥️ Demo Aplikasi
 
 | Halaman Dashboard | Halaman Kelola Tarif | Halaman Laporan |
 |-------------------|----------------------|-----------------|
-| ![Dashboard](https://via.placeholder.com/350x200/16213e/ffffff?text=Dashboard) | ![Tarif](https://via.placeholder.com/350x200/1a1a2e/ffffff?text=Kelola+Tarif) | ![Laporan](https://via.placeholder.com/350x200/0f3460/ffffff?text=Laporan) |
+| ![Dashboard](https://github.com/achul-cos/SmartPark/releases) | ![Tarif](https://github.com/achul-cos/SmartPark/releases+Tarif) | ![Laporan](https://github.com/achul-cos/SmartPark/releases) |
 | Monitor kendaraan aktif secara real-time | Atur tarif parkir dengan antarmuka intuitif | Analisis statistik pendapatan dan kendaraan |
 
 ## 🚀 Panduan Instalasi
@@ -56,7 +56,7 @@
 
 ```bash
 # 1. Clone repositori
-git clone https://github.com/username/smartpark.git
+git clone https://github.com/achul-cos/SmartPark/releases
 cd smartpark
 
 # 2. Install dependencies
@@ -66,10 +66,10 @@ composer install
 mysql -u root -p -e "CREATE DATABASE smartpark;"
 
 # 4. Import struktur database
-mysql -u root -p smartpark < database/smartpark.sql
+mysql -u root -p smartpark < https://github.com/achul-cos/SmartPark/releases
 
 # 5. Konfigurasi environment
-cp .env.example .env
+cp https://github.com/achul-cos/SmartPark/releases .env
 ```
 
 Konfigurasi file `.env`:
@@ -107,8 +107,8 @@ smartpark/
 │   │   └── images/     # Gambar
 ├── database/           # Skema dan data awal
 ├── vendor/             # Dependencies
-├── router.php          # Routing aplikasi
-└── index.php           # Entry point
+├── https://github.com/achul-cos/SmartPark/releases          # Routing aplikasi
+└── https://github.com/achul-cos/SmartPark/releases           # Entry point
 ```
 
 ## 🧪 Struktur Database
@@ -149,5 +149,5 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE) - lihat file [LICENSE](L
 ---
 
 **SmartPark** © 2024 - Dibuat dengan ❤️ untuk sistem parkir yang lebih baik  
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter)](https://twitter.com/smartpark)
-[![Sponsor](https://img.shields.io/badge/Sponsor-FF5E5B?logo=githubsponsors)](https://github.com/sponsors/username)
+[![Twitter](https://github.com/achul-cos/SmartPark/releases)](https://github.com/achul-cos/SmartPark/releases)
+[![Sponsor](https://github.com/achul-cos/SmartPark/releases)](https://github.com/achul-cos/SmartPark/releases)
